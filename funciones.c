@@ -104,7 +104,7 @@ void verCompras(char peliculas[][4][40],double precio[], char clientes[][2][40],
     }
     for (int a = 0; a < 10; a++){
         if(reserva[a][1]==found){
-            printf("%s\t\t%s\t\t%.2f\t\t%d",peliculas[reserva[a][0]][1]-1,clientes[reserva[a][1]][0],precio[reserva[a][2]],reserva[a][3]); 
+            printf("%s\t\t%s\t\t%.2f\t\t%d\n",peliculas[reserva[a][0]-1][1],clientes[reserva[a][1]][0],precio[reserva[a][2]],reserva[a][3]); 
             
         }
     } 
