@@ -70,8 +70,6 @@ void comprarTicket(char peliculas[][4][40], double precio[], char clientes[][2][
                 printf("Cedula no encontrada.\n");
                 return;
             }
-
-            listarPeliculas(peliculas);
             printf("Ingrese el numero de la pelicula: ");
             scanf("%d", &reserva[k][0]);
             printf("El valor de la pelicula es: %d\n", reserva[k][0]);
